@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Us - Wizconn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="contact-form">
+      <h2>Tell Me What You Want</h2>
+      <form action="https://formsubmit.co/info@wizconn.com" method="POST">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name or Organization"
+          required
+        />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="hidden" name="_next" value="https://xiaonangu.github.io/wizconn-site/thankyou.html" />
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </body>
+</html>
